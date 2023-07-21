@@ -1,5 +1,8 @@
 import {Tester} from "https://raw.githubusercontent.com/mateomorris/primo-components/de0a89dae443d902b963374ab9ef281acbe4bf15/dist/Heading.svelte"
 
+<script>
+  import "../app.css"
+</script>
 
 <Tester>
 <slot><!-- optional fallback --></slot>

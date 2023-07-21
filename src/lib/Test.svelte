@@ -11,7 +11,7 @@
     <slot><!-- optional fallback --></slot>
   </Tester>
   <h1 class="text-3xl">
-    {hello}
+    <slot><!-- optional fallback --></slot>
   </h1>
 </div>
 
